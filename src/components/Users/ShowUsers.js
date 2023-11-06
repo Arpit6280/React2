@@ -5,7 +5,7 @@ function ShowUsers(props) {
   return (
     <div className='users-list'>
         <ul className='lists'>
-          <li>{props.username}  {` (${props.age} years old)`}</li>
+          <li>{props.username}  {` (${props.age} years old)`} {`study in ${props.college} college`} </li>
         </ul>
     </div>
   )

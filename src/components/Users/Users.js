@@ -9,7 +9,7 @@ function Users(props) {
   return (
     <div className='users'>
      {props.users.map((user)=>(
-        <ShowUsers key={user.id} username={user.username} age={user.age} />
+        <ShowUsers key={user.id} username={user.username} age={user.age} college={user.college} />
      ))}
     </div>
   )
