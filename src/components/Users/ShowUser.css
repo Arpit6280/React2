@@ -1,0 +1,15 @@
+.users-list{
+  border: 2px solid #7e7b80;
+  margin-top: 20px;
+}
+
+.lists{
+ display: flex;
+ justify-content:flex-start;
+padding-left: 10px;
+}
+
+li{
+  list-style: none;
+  color: rgb(2, 2, 2)
+}
